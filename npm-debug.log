@@ -1,0 +1,501 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-uglify',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of E:\Grunt\package.json
+5 warn package.json framework@1.0.0 No repository field.
+6 warn package.json framework@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from E:\Grunt\node_modules\grunt\package.json
+8 verbose installManyTop reading scoped package data from E:\Grunt\node_modules\grunt-contrib-jshint\package.json
+9 info package.json grunt@0.4.5 No license field.
+10 verbose readDependencies loading dependencies from E:\Grunt\package.json
+11 silly cache add args [ 'grunt-contrib-uglify', null ]
+12 verbose cache add spec grunt-contrib-uglify
+13 silly cache add parsed spec { raw: 'grunt-contrib-uglify',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'grunt-contrib-uglify',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 silly addNamed grunt-contrib-uglify@*
+15 verbose addNamed "*" is a valid semver range for grunt-contrib-uglify
+16 silly addNameRange { name: 'grunt-contrib-uglify', range: '*', hasData: false }
+17 silly mapToRegistry name grunt-contrib-uglify
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+21 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+22 verbose request uri https://registry.npmjs.org/grunt-contrib-uglify
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 10:30:24
+25 verbose request id 58cf98a3a738494a
+26 verbose etag "BE55BAG4DJOGCR1XVGG4L8XLY"
+27 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+28 http 200 https://registry.npmjs.org/grunt-contrib-uglify
+29 silly get cb [ 200,
+29 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly get     etag: '"CD79BYBD1E0Q6DJIFISPGKSYJ"',
+29 silly get     'content-type': 'application/json',
+29 silly get     'cache-control': 'max-age=60',
+29 silly get     'content-length': '68107',
+29 silly get     'accept-ranges': 'bytes',
+29 silly get     date: 'Fri, 25 Sep 2015 02:31:13 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     age: '0',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-nrt6131-NRT',
+29 silly get     'x-cache': 'HIT',
+29 silly get     'x-cache-hits': '1',
+29 silly get     'x-timer': 'S1443148273.588205,VS0,VE133',
+29 silly get     vary: 'Accept' } ]
+30 verbose get saving grunt-contrib-uglify to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-uglify\.cache.json
+31 silly addNameRange number 2 { name: 'grunt-contrib-uglify', range: '*', hasData: true }
+32 silly addNameRange versions [ 'grunt-contrib-uglify',
+32 silly addNameRange   [ '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.2.1',
+32 silly addNameRange     '0.2.2',
+32 silly addNameRange     '0.2.3',
+32 silly addNameRange     '0.2.4',
+32 silly addNameRange     '0.2.5',
+32 silly addNameRange     '0.2.6',
+32 silly addNameRange     '0.2.7',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.1.1-rc5',
+32 silly addNameRange     '0.1.1-rc6',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.3.3',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.4.1',
+32 silly addNameRange     '0.5.1',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.8.1',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.2' ] ]
+33 silly addNamed grunt-contrib-uglify@0.9.2
+34 verbose addNamed "0.9.2" is a plain semver version for grunt-contrib-uglify
+35 silly mapToRegistry name grunt-contrib-uglify
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+39 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz not in flight; adding
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz',
+40 verbose addRemoteTarball   '1a61c6f212410e4abb4f7c89153717b101560260' ]
+41 info retry fetch attempt 1 at 10:30:28
+42 info attempt registry request try #1 at 10:30:28
+43 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz
+44 http fetch 200 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz
+45 silly fetchAndShaCheck shasum 1a61c6f212410e4abb4f7c89153717b101560260
+46 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4024-cb7573b7\registry.npmjs.org\grunt-contrib-uglify\-\grunt-contrib-uglify-0.9.2.tgz not in flight; adding
+47 verbose addTmpTarball already have metadata; skipping unpack for grunt-contrib-uglify@0.9.2
+48 silly cache afterAdd grunt-contrib-uglify@0.9.2
+49 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-contrib-uglify\0.9.2\package\package.json not in flight; writing
+50 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-contrib-uglify\0.9.2\package\package.json written
+51 silly install resolved [ { name: 'grunt-contrib-uglify',
+51 silly install resolved     description: 'Minify files with UglifyJS',
+51 silly install resolved     version: '0.9.2',
+51 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+51 silly install resolved     repository:
+51 silly install resolved      { type: 'git',
+51 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-uglify.git' },
+51 silly install resolved     license: 'MIT',
+51 silly install resolved     engines: { node: '>=0.10.0' },
+51 silly install resolved     scripts: { test: 'grunt test' },
+51 silly install resolved     dependencies:
+51 silly install resolved      { chalk: '^1.0.0',
+51 silly install resolved        lodash: '^3.2.0',
+51 silly install resolved        maxmin: '^1.0.0',
+51 silly install resolved        'uglify-js': '^2.4.24',
+51 silly install resolved        'uri-path': '0.0.2' },
+51 silly install resolved     devDependencies:
+51 silly install resolved      { grunt: '^0.4.2',
+51 silly install resolved        'grunt-cli': '^0.1.13',
+51 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+51 silly install resolved        'grunt-contrib-internal': '^0.4.12',
+51 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+51 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+51 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+51 silly install resolved     keywords: [ 'gruntplugin' ],
+51 silly install resolved     files: [ 'tasks' ],
+51 silly install resolved     appveyor_id: 'ybtf5vbvtenii561',
+51 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+51 silly install resolved     gitHead: '6e7ff8233562198054d908323f7112fc8e897d8d',
+51 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-uglify/issues' },
+51 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-uglify#readme',
+51 silly install resolved     _id: 'grunt-contrib-uglify@0.9.2',
+51 silly install resolved     _shasum: '1a61c6f212410e4abb4f7c89153717b101560260',
+51 silly install resolved     _from: 'grunt-contrib-uglify@*',
+51 silly install resolved     _npmVersion: '2.9.1',
+51 silly install resolved     _nodeVersion: '0.10.38',
+51 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: '1a61c6f212410e4abb4f7c89153717b101560260',
+51 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz' },
+51 silly install resolved     maintainers:
+51 silly install resolved      [ [Object],
+51 silly install resolved        [Object],
+51 silly install resolved        [Object],
+51 silly install resolved        [Object],
+51 silly install resolved        [Object],
+51 silly install resolved        [Object],
+51 silly install resolved        [Object] ],
+51 silly install resolved     directories: {},
+51 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.9.2.tgz' } ]
+52 info install grunt-contrib-uglify@0.9.2 into E:\Grunt
+53 info installOne grunt-contrib-uglify@0.9.2
+54 verbose installOne of grunt-contrib-uglify to E:\Grunt not in flight; installing
+55 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\grunt-contrib-uglify-2dd640b9686ef5e0.lock for E:\Grunt\node_modules\grunt-contrib-uglify
+56 silly install write writing grunt-contrib-uglify 0.9.2 to E:\Grunt\node_modules\grunt-contrib-uglify
+57 verbose unbuild node_modules\grunt-contrib-uglify
+58 silly gentlyRm E:\Grunt\node_modules\grunt-contrib-uglify is being purged from base E:\Grunt
+59 verbose gentlyRm don't care about contents; nuking E:\Grunt\node_modules\grunt-contrib-uglify
+60 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-contrib-uglify\0.9.2\package.tgz
+61 verbose tar unpacking to E:\Grunt\node_modules\grunt-contrib-uglify
+62 silly gentlyRm E:\Grunt\node_modules\grunt-contrib-uglify is being purged
+63 verbose gentlyRm don't care about contents; nuking E:\Grunt\node_modules\grunt-contrib-uglify
+64 silly gunzTarPerm modes [ '777', '666' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+69 silly gunzTarPerm extractEntry CHANGELOG
+70 silly gunzTarPerm modified mode [ 'CHANGELOG', 420, 438 ]
+71 silly gunzTarPerm extractEntry tasks/uglify.js
+72 silly gunzTarPerm modified mode [ 'tasks/uglify.js', 420, 438 ]
+73 silly gunzTarPerm extractEntry tasks/lib/uglify.js
+74 silly gunzTarPerm modified mode [ 'tasks/lib/uglify.js', 420, 438 ]
+75 verbose write writing to E:\Grunt\node_modules\grunt-contrib-uglify\package.json
+76 info preinstall grunt-contrib-uglify@0.9.2
+77 verbose readDependencies loading dependencies from E:\Grunt\node_modules\grunt-contrib-uglify\package.json
+78 silly prepareForInstallMany adding chalk@^1.0.0 from grunt-contrib-uglify dependencies
+79 silly prepareForInstallMany adding lodash@^3.2.0 from grunt-contrib-uglify dependencies
+80 silly prepareForInstallMany adding maxmin@^1.0.0 from grunt-contrib-uglify dependencies
+81 silly prepareForInstallMany adding uglify-js@^2.4.24 from grunt-contrib-uglify dependencies
+82 silly prepareForInstallMany adding uri-path@0.0.2 from grunt-contrib-uglify dependencies
+83 verbose readDependencies loading dependencies from E:\Grunt\node_modules\grunt-contrib-uglify\package.json
+84 silly cache add args [ 'lodash@^3.2.0', null ]
+85 verbose cache add spec lodash@^3.2.0
+86 silly cache add parsed spec { raw: 'lodash@^3.2.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'lodash',
+86 silly cache add   rawSpec: '^3.2.0',
+86 silly cache add   spec: '>=3.2.0 <4.0.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed lodash@>=3.2.0 <4.0.0
+88 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for lodash
+89 silly addNameRange { name: 'lodash', range: '>=3.2.0 <4.0.0', hasData: false }
+90 silly mapToRegistry name lodash
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/lodash
+94 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+95 silly cache add args [ 'maxmin@^1.0.0', null ]
+96 verbose cache add spec maxmin@^1.0.0
+97 silly cache add parsed spec { raw: 'maxmin@^1.0.0',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'maxmin',
+97 silly cache add   rawSpec: '^1.0.0',
+97 silly cache add   spec: '>=1.0.0 <2.0.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed maxmin@>=1.0.0 <2.0.0
+99 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for maxmin
+100 silly addNameRange { name: 'maxmin', range: '>=1.0.0 <2.0.0', hasData: false }
+101 silly mapToRegistry name maxmin
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/maxmin
+105 verbose addNameRange registry:https://registry.npmjs.org/maxmin not in flight; fetching
+106 verbose request uri https://registry.npmjs.org/maxmin
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:30:29
+109 http request GET https://registry.npmjs.org/maxmin
+110 silly cache add args [ 'uglify-js@^2.4.24', null ]
+111 verbose cache add spec uglify-js@^2.4.24
+112 silly cache add parsed spec { raw: 'uglify-js@^2.4.24',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'uglify-js',
+112 silly cache add   rawSpec: '^2.4.24',
+112 silly cache add   spec: '>=2.4.24 <3.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed uglify-js@>=2.4.24 <3.0.0
+114 verbose addNamed ">=2.4.24 <3.0.0" is a valid semver range for uglify-js
+115 silly addNameRange { name: 'uglify-js', range: '>=2.4.24 <3.0.0', hasData: false }
+116 silly mapToRegistry name uglify-js
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+120 verbose addNameRange registry:https://registry.npmjs.org/uglify-js not in flight; fetching
+121 silly cache add args [ 'uri-path@0.0.2', null ]
+122 verbose cache add spec uri-path@0.0.2
+123 silly cache add parsed spec { raw: 'uri-path@0.0.2',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'uri-path',
+123 silly cache add   rawSpec: '0.0.2',
+123 silly cache add   spec: '0.0.2',
+123 silly cache add   type: 'version' }
+124 silly addNamed uri-path@0.0.2
+125 verbose addNamed "0.0.2" is a plain semver version for uri-path
+126 silly mapToRegistry name uri-path
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/uri-path
+130 verbose addNameVersion registry:https://registry.npmjs.org/uri-path not in flight; fetching
+131 silly cache add args [ 'chalk@^1.0.0', null ]
+132 verbose cache add spec chalk@^1.0.0
+133 silly cache add parsed spec { raw: 'chalk@^1.0.0',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'chalk',
+133 silly cache add   rawSpec: '^1.0.0',
+133 silly cache add   spec: '>=1.0.0 <2.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed chalk@>=1.0.0 <2.0.0
+135 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for chalk
+136 silly addNameRange { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: false }
+137 silly mapToRegistry name chalk
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/chalk
+141 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+142 verbose request uri https://registry.npmjs.org/uri-path
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 10:30:29
+145 http request GET https://registry.npmjs.org/uri-path
+146 verbose request uri https://registry.npmjs.org/lodash
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 10:30:29
+149 verbose etag "1BVAO09YAOMHIQUJF6ZGBIYTB"
+150 http request GET https://registry.npmjs.org/lodash
+151 verbose request uri https://registry.npmjs.org/uglify-js
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 10:30:29
+154 verbose etag "3Y1L3K5XV1NZ9HRC45LUONT71"
+155 http request GET https://registry.npmjs.org/uglify-js
+156 verbose request uri https://registry.npmjs.org/chalk
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 10:30:29
+159 verbose etag "AAJVIKN5C9NLS7MLUKNBS5Y5Q"
+160 http request GET https://registry.npmjs.org/chalk
+161 http 304 https://registry.npmjs.org/lodash
+162 silly get cb [ 304,
+162 silly get   { date: 'Fri, 25 Sep 2015 02:31:15 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     'cache-control': 'max-age=60',
+162 silly get     etag: '"1BVAO09YAOMHIQUJF6ZGBIYTB"',
+162 silly get     age: '41',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-nrt6134-NRT',
+162 silly get     'x-cache': 'HIT',
+162 silly get     'x-cache-hits': '1',
+162 silly get     'x-timer': 'S1443148275.990679,VS0,VE1',
+162 silly get     vary: 'Accept' } ]
+163 verbose etag https://registry.npmjs.org/lodash from cache
+164 verbose get saving lodash to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+165 silly addNameRange number 2 { name: 'lodash', range: '>=3.2.0 <4.0.0', hasData: true }
+166 silly addNameRange versions [ 'lodash',
+166 silly addNameRange   [ '0.1.0',
+166 silly addNameRange     '0.2.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.2.2',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.3.1',
+166 silly addNameRange     '0.3.2',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.4.1',
+166 silly addNameRange     '0.4.2',
+166 silly addNameRange     '0.5.0-rc.1',
+166 silly addNameRange     '0.5.0',
+166 silly addNameRange     '0.5.1',
+166 silly addNameRange     '0.5.2',
+166 silly addNameRange     '0.6.0',
+166 silly addNameRange     '0.6.1',
+166 silly addNameRange     '0.7.0',
+166 silly addNameRange     '0.8.0',
+166 silly addNameRange     '0.8.1',
+166 silly addNameRange     '0.8.2',
+166 silly addNameRange     '0.9.0',
+166 silly addNameRange     '0.9.1',
+166 silly addNameRange     '0.9.2',
+166 silly addNameRange     '0.10.0',
+166 silly addNameRange     '1.0.0-rc.1',
+166 silly addNameRange     '1.0.0-rc.2',
+166 silly addNameRange     '1.0.0-rc.3',
+166 silly addNameRange     '1.0.0',
+166 silly addNameRange     '1.0.1',
+166 silly addNameRange     '1.1.0',
+166 silly addNameRange     '1.1.1',
+166 silly addNameRange     '1.2.0',
+166 silly addNameRange     '1.2.1',
+166 silly addNameRange     '1.3.0',
+166 silly addNameRange     '1.3.1',
+166 silly addNameRange     '2.0.0',
+166 silly addNameRange     '2.1.0',
+166 silly addNameRange     '2.2.0',
+166 silly addNameRange     '2.2.1',
+166 silly addNameRange     '2.3.0',
+166 silly addNameRange     '2.4.0',
+166 silly addNameRange     '2.4.1',
+166 silly addNameRange     '3.0.0',
+166 silly addNameRange     '3.0.1',
+166 silly addNameRange     '3.1.0',
+166 silly addNameRange     '3.2.0',
+166 silly addNameRange     '3.3.0',
+166 silly addNameRange     '3.3.1',
+166 silly addNameRange     '3.4.0',
+166 silly addNameRange     '3.5.0',
+166 silly addNameRange     '3.6.0',
+166 silly addNameRange     '1.0.2',
+166 silly addNameRange     '3.7.0',
+166 silly addNameRange     '2.4.2',
+166 silly addNameRange     '3.8.0',
+166 silly addNameRange     '3.9.0',
+166 silly addNameRange     '3.9.1',
+166 silly addNameRange     '3.9.2',
+166 silly addNameRange     '3.9.3',
+166 silly addNameRange     '3.10.0',
+166 silly addNameRange     '3.10.1' ] ]
+167 silly addNamed lodash@3.10.1
+168 verbose addNamed "3.10.1" is a plain semver version for lodash
+169 silly cache afterAdd lodash@3.10.1
+170 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\lodash\3.10.1\package\package.json not in flight; writing
+171 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\lodash\3.10.1\package\package.json written
+172 http 200 https://registry.npmjs.org/maxmin
+173 silly get cb [ 200,
+173 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+173 silly get     etag: '"EENLE5FZRFP68IV1RY3RUHCMX"',
+173 silly get     'content-type': 'application/json',
+173 silly get     'cache-control': 'max-age=60',
+173 silly get     'content-length': '10654',
+173 silly get     'accept-ranges': 'bytes',
+173 silly get     date: 'Fri, 25 Sep 2015 02:31:16 GMT',
+173 silly get     via: '1.1 varnish',
+173 silly get     age: '0',
+173 silly get     connection: 'keep-alive',
+173 silly get     'x-served-by': 'cache-nrt6133-NRT',
+173 silly get     'x-cache': 'HIT',
+173 silly get     'x-cache-hits': '1',
+173 silly get     'x-timer': 'S1443148276.077632,VS0,VE117',
+173 silly get     vary: 'Accept' } ]
+174 verbose get saving maxmin to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\maxmin\.cache.json
+175 silly addNameRange number 2 { name: 'maxmin', range: '>=1.0.0 <2.0.0', hasData: true }
+176 silly addNameRange versions [ 'maxmin',
+176 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '1.0.0', '1.0.1', '1.1.0' ] ]
+177 silly addNamed maxmin@1.1.0
+178 verbose addNamed "1.1.0" is a plain semver version for maxmin
+179 silly mapToRegistry name maxmin
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry uri https://registry.npmjs.org/maxmin
+183 verbose addRemoteTarball https://registry.npmjs.org/maxmin/-/maxmin-1.1.0.tgz not in flight; adding
+184 verbose addRemoteTarball [ 'https://registry.npmjs.org/maxmin/-/maxmin-1.1.0.tgz',
+184 verbose addRemoteTarball   '71365e84a99dd8f8b3f7d5fde2f00d1e7f73be61' ]
+185 info retry fetch attempt 1 at 10:30:29
+186 info attempt registry request try #1 at 10:30:29
+187 http fetch GET https://registry.npmjs.org/maxmin/-/maxmin-1.1.0.tgz
+188 http fetch 200 https://registry.npmjs.org/maxmin/-/maxmin-1.1.0.tgz
+189 silly fetchAndShaCheck shasum 71365e84a99dd8f8b3f7d5fde2f00d1e7f73be61
+190 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4024-cb7573b7\registry.npmjs.org\maxmin\-\maxmin-1.1.0.tgz not in flight; adding
+191 verbose addTmpTarball already have metadata; skipping unpack for maxmin@1.1.0
+192 silly cache afterAdd maxmin@1.1.0
+193 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\maxmin\1.1.0\package\package.json not in flight; writing
+194 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\maxmin\1.1.0\package\package.json written
+195 http 200 https://registry.npmjs.org/uri-path
+196 silly get cb [ 200,
+196 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+196 silly get     etag: '"9GL6P6HYO3DTG0PTYXNYXG18W"',
+196 silly get     'content-type': 'application/json',
+196 silly get     'cache-control': 'max-age=60',
+196 silly get     'content-length': '3441',
+196 silly get     'accept-ranges': 'bytes',
+196 silly get     date: 'Fri, 25 Sep 2015 02:31:16 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     age: '0',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-nrt6123-NRT',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '1',
+196 silly get     'x-timer': 'S1443148276.384101,VS0,VE521',
+196 silly get     vary: 'Accept' } ]
+197 verbose get saving uri-path to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\uri-path\.cache.json
+198 silly mapToRegistry name uri-path
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/uri-path
+202 verbose addRemoteTarball https://registry.npmjs.org/uri-path/-/uri-path-0.0.2.tgz not in flight; adding
+203 verbose addRemoteTarball [ 'https://registry.npmjs.org/uri-path/-/uri-path-0.0.2.tgz',
+203 verbose addRemoteTarball   '803eb01f2feb17927dcce0f6187e72b75f53f554' ]
+204 info retry fetch attempt 1 at 10:30:31
+205 info attempt registry request try #1 at 10:30:31
+206 http fetch GET https://registry.npmjs.org/uri-path/-/uri-path-0.0.2.tgz
+207 http fetch 200 https://registry.npmjs.org/uri-path/-/uri-path-0.0.2.tgz
+208 silly fetchAndShaCheck shasum 803eb01f2feb17927dcce0f6187e72b75f53f554
+209 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-4024-cb7573b7\registry.npmjs.org\uri-path\-\uri-path-0.0.2.tgz not in flight; adding
+210 verbose addTmpTarball already have metadata; skipping unpack for uri-path@0.0.2
+211 silly cache afterAdd uri-path@0.0.2
+212 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\uri-path\0.0.2\package\package.json not in flight; writing
+213 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\uri-path\0.0.2\package\package.json written
+214 http 200 https://registry.npmjs.org/chalk
+215 silly get cb [ 200,
+215 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+215 silly get     etag: '"88CG7Y516JVX8X0CWVC4XSCVK"',
+215 silly get     'content-type': 'application/json',
+215 silly get     'cache-control': 'max-age=60',
+215 silly get     'content-length': '25666',
+215 silly get     'accept-ranges': 'bytes',
+215 silly get     date: 'Fri, 25 Sep 2015 02:31:16 GMT',
+215 silly get     via: '1.1 varnish',
+215 silly get     age: '7',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-served-by': 'cache-nrt6128-NRT',
+215 silly get     'x-cache': 'HIT',
+215 silly get     'x-cache-hits': '1',
+215 silly get     'x-timer': 'S1443148276.892550,VS0,VE0',
+215 silly get     vary: 'Accept' } ]
+216 verbose get saving chalk to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\chalk\.cache.json
+217 silly addNameRange number 2 { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: true }
+218 silly addNameRange versions [ 'chalk',
+218 silly addNameRange   [ '0.1.0',
+218 silly addNameRange     '0.1.1',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.2.1',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '0.5.0',
+218 silly addNameRange     '0.5.1',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.1.0',
+218 silly addNameRange     '1.1.1' ] ]
+219 silly addNamed chalk@1.1.1
+220 verbose addNamed "1.1.1" is a plain semver version for chalk
+221 silly cache afterAdd chalk@1.1.1
+222 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\chalk\1.1.1\package\package.json not in flight; writing
+223 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\chalk\1.1.1\package\package.json written
+224 verbose stack Error: read ECONNRESET
+224 verbose stack     at exports._errnoException (util.js:746:11)
+224 verbose stack     at TCP.onread (net.js:559:26)
+225 verbose cwd E:\Grunt
+226 error Windows_NT 6.1.7601
+227 error argv "D:\\nodejs\\\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-uglify" "--save-dev"
+228 error node v0.12.4
+229 error npm  v2.10.1
+230 error code ECONNRESET
+231 error errno ECONNRESET
+232 error syscall read
+233 error network read ECONNRESET
+233 error network This is most likely not a problem with npm itself
+233 error network and is related to network connectivity.
+233 error network In most cases you are behind a proxy or have bad network settings.
+233 error network
+233 error network If you are behind a proxy, please make sure that the
+233 error network 'proxy' config is set properly.  See: 'npm help config'
+234 verbose exit [ 1, true ]

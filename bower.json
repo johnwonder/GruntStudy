@@ -1,0 +1,18 @@
+{
+  "name": "framework",
+  "version": "0.0.0",
+  "authors": [
+    "johnwonder <johnufida@163.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
